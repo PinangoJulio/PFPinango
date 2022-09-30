@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barcelona FC</title>
+    <link rel="shortcut icon" href="./img/Logo.png" />
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <header>
+      <img src="./img/Logo Barcelona.png" alt="Logo Equipo" />
+       <nav>
+        <ul>
+          <li>
+            <a href="./index.html">Inicio</a>
+          </li>
+          <a href="./Historia.html">Historia</a>
+          <li>
+            <a href="./Hazte Socio.html">Hazte Socio</a>
+            <ul>
+              <a href="#Mapa">Mapa</a>
+              <a href="./apps.html">Apps</a>
+            </ul>
+          </li>
+          <li>
+            <a href="./Plantilla.html">Plantilla</a>
+          </li>
+          <li>
+            <a href="./Multimedia.html">Multimedia</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <form action="">
+      <label for="name">Nombre y Apellido</label>
+      <input type="text" name="name" placeholder="Colocar nombre completo" />
+      <p></p>
+      <label for="email">Email</label>
+      <input type="email" name="email" placeholder="Colocar email" />
+      <p></p>
+      <label for="Password">Contraseña</label>
+      <input type="Password" name="Password" placeholder="Ingrese contraseña" />
+      <p></p>
+      <label for="message">Consulta</label>
+      <textarea
+        name="message"
+        cols="30"
+        rows="30"
+        placeholder="Deje su Consulta"
+      ></textarea>
+      <p></p>
+      <label for="Bussines">Pyme</label>
+      <input type="radio" name="Bussines" value="Pyme" />
+      <p></p>
+      <label for="Bussines">Gran Empresa</label>
+      <input type="radio" name="Bussines" value="Empresa Grande" />
+      <p></p>
+      <label for="accept">Acepta Terminos y condiciones</label>
+      <input type="checkbox" name="accept" value="Si" checked />
+      <p></p>
+      <label for="services">Servicios</label>
+      <select name="services" id="">
+        <option value="Web">Web</option>
+        <option value="Apps">Apps</option>
+      </select>
+      <p></p>
+      <input type="submit" value="enviar formulario" />
+      <input type="reset" value="limpiar formulario" />
+      <input type="button" value="no hace nada" />
+    </form>
+  </body>
+</html>
