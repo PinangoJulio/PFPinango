@@ -6,39 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barcelona FC</title>
     <link rel="shortcut icon" href="./img/Logo.png" />
-    <link rel="stylesheet" href="./css/style.css">
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <!-- Link al CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="main__header">
-      <img
-        src="./img/Barcelona titulo principal.jpg"
-        alt="Logo Equipo"
-        width="1350"
-        height="120"
-      />
-      <nav>
-        <ul class= "main__header__nav">
-          <li>
-            <a class= "main__header__nav-buttom_Inicio" href="./index.html">Inicio</a>
-          </li>
-          <li>
-            <a class= "main__header__nav-buttom_Historia" href="./Historia.html">Historia</a>
-          </li>
-          <li>
-            <a class= "main__header__nav-buttom_HazteSocio" href="./Hazte Socio.html">Hazte Socio</a>
-            <ul>
-              <a href="#Mapa">Mapa</a>
-              <a href="./apps.html">Apps</a>
-            </ul>
-          </li>
-          <li>
-            <a class= "main__header__nav-buttom_Plantilla" href="./Plantilla.html">Plantilla</a>
-          </li>
-          <li>
-            <a class= "main__header__nav-buttom_Multimedia" href="./Multimedia.html">Multimedia</a>
-          </li>
-        </ul>
-      </nav>
+    <header class="container-fluid">
+      <div class="row gb-danger">
+        <nav class="navbar navbar-expand-lg col">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"
+              ><img
+                src="https://assets.stickpng.com/images/584a9b3bb080d7616d298777.png"
+                alt="Logo Equipo"
+                width="100"
+                height="100"
+            /></a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Historia.html">Historia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Hazte Socio.html">Hazte Socio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Plantilla.html">Plantilla</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./Multimedia.html">Multimedia</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="imagen__titulo">
+        <img
+          src="./img/Barcelona titulo principal.jpg"
+          alt="Logo Equipo"
+          width="1330"
+          height="120"
+        />
+      </div>
     </header>
     <div class="fixed">
       <img
@@ -57,30 +93,75 @@
       />
       <p>Nuestras Redes</p>
       <a title="Barcelona Facebook" href="https://www.facebook.com/fcbarcelona/"
-        ><img src="./img/Facebook.jpg" alt="Barcelona Facebook" width="100" height="90"
+        ><img
+          src="./img/Facebook.jpg"
+          alt="Barcelona Facebook"
+          width="100"
+          height="90"
       /></a>
       <a title="Barcelona Twitter" href="https://twitter.com/fcbarcelona_es"
-      ><img src="./img/Twitter.jpg" alt="Barcelona Twitter"width="100" height="90"
+        ><img
+          src="./img/Twitter.jpg"
+          alt="Barcelona Twitter"
+          width="100"
+          height="90"
       /></a>
-      <a title="Barcelona Youtube" href="https://www.youtube.com/user/fcbarcelona"
-      ><img src="./img/Youtube.jpg" alt="Barcelona Youtube" width="100" height="90"
+      <a
+        title="Barcelona Youtube"
+        href="https://www.youtube.com/user/fcbarcelona"
+        ><img
+          src="./img/Youtube.jpg"
+          alt="Barcelona Youtube"
+          width="100"
+          height="90"
       /></a>
-      <a title="Barcelona Instagram" href="https://www.instagram.com/fcbarcelona/"
-      ><img src="./img/Instagram.jpg" alt="Barcelona Instagram" width="100" height="90"
+      <a
+        title="Barcelona Instagram"
+        href="https://www.instagram.com/fcbarcelona/"
+        ><img
+          src="./img/Instagram.jpg"
+          alt="Barcelona Instagram"
+          width="100"
+          height="90"
       /></a>
-      <a title="Barcelona OneFootball" href="https://onefootball.com/en/team/barcelona-5"
-      ><img src="./img/OneFootball.jpg" alt="Barcelona OneFootball" width="100" height="90"
+      <a
+        title="Barcelona OneFootball"
+        href="https://onefootball.com/en/team/barcelona-5"
+        ><img
+          src="./img/OneFootball.jpg"
+          alt="Barcelona OneFootball"
+          width="100"
+          height="90"
       /></a>
       <a title="Barcelona TikTok" href="https://www.tiktok.com/@fcbarcelona"
-      ><img src="./img/TikTok.jpg" alt="Barcelona TikTok" width="100" height="90"
+        ><img
+          src="./img/TikTok.jpg"
+          alt="Barcelona TikTok"
+          width="100"
+          height="90"
       /></a>
       <p>Sponsors</p>
       <a title="Barcelona Nike" href="https://www.nike.com/ar/"
-      ><img src="https://thumbs.dreamstime.com/b/fondo-negro-vectorial-del-logotipo-de-nike-marca-para-uso-impreso-ropa-deportiva-y-fitness-183282388.jpg" alt="Barcelona Nike" width="100" height="90"
+        ><img
+          src="https://thumbs.dreamstime.com/b/fondo-negro-vectorial-del-logotipo-de-nike-marca-para-uso-impreso-ropa-deportiva-y-fitness-183282388.jpg"
+          alt="Barcelona Nike"
+          width="100"
+          height="90"
       /></a>
       <a title="Barcelona Spotify" href="https://open.spotify.com/"
-      ><img src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/folder_920_201707260845-1.png" alt="Barcelona Spotify" width="100" height="90"
+        ><img
+          src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/folder_920_201707260845-1.png"
+          alt="Barcelona Spotify"
+          width="100"
+          height="90"
       /></a>
     </footer>
+    <!-- Fin Footer -->
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -1,172 +1,168 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-.remove-bg{
-    filter: brightness(1,1);
-    mix-blend-mode: multiply;
+.remove-bg {
+  filter: brightness(1, 1);
+  mix-blend-mode: multiply;
 }
-a{
-    text-decoration: none;
-    color: #000000;
-}
-
-header{
-    background-color: #2B2E4D;
-     color: yellow; 
-     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     line-height: 1.6;
+a {
+  text-decoration: none;
+  color: #000000;
 }
 
-.main__header{
-    position: fixed;
-    width: 100%;
-}
-.fixed{
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
+header {
+  background-color: #2b2e4d;
+  color: yellow;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 1.6;
 }
 
-a{
-    color: yellow;
-    font-size: 2rem;
+.main__header {
+  position: fixed;
+  width: 100%;
+}
+.fixed {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
 }
 
-.imagen__titulo img{
-    width: 100%;
-    height: auto;
+a {
+  color: yellow;
+  font-size: 2rem;
 }
 
-.main__header logo__header{
-    display: inline-block;
-    width: 80%;
-    padding-left: 40px;
+.imagen__titulo img {
+  width: 100%;
+  height: auto;
 }
 
-.main__header ul{
+.main__header logo__header {
+  display: inline-block;
+  width: 80%;
+  padding-left: 40px;
+  ul {
     font-size: 0;
+    li {
+      display: inline-block;
+      width: 20%;
+      position: relative;
+    }
+    ul {
+      display: none;
+      position: absolute;
+      background-color: #2b2e4d;
+      width: 70px;
+      padding-left: 15px;
+      padding-bottom: 15px;
+      li{
+        display: block;
+      }
+    }
+  }
 }
 
-.main__header ul li{
-    display: inline-block;
-    width: 20%;
-    position: relative;
+.main__header ul li:hover ul {
+  display: block;
 }
 
-.main__header ul ul{
-    display: none;
-    position: absolute;
-    background-color: #2B2E4D;
-    width: 70px;
-    padding-left: 15px;
-    padding-bottom: 15px;
+nav {
+  background-color: darkred;
+  text-align: center;
+  font-size: 3rem;
 }
 
-.main__header ul ul li{
-    display: block;
+.main__title {
+  font-style: italic;
+  font-size: 4rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  background-color: yellow;
+  color: #2b2e4d;
 }
 
-.main__header ul li:hover ul{
-    display: block;
+.main__principal {
+  background-color: #2b2e4d;
+  text-align: center;
+  background-size: 800px 600px;
 }
 
-nav{
-    background-color: darkred;
-    text-align: center;
-    font-size: 3rem;
+.footer__principal {
+  background-color: #2b2e4d;
+  text-align: center;
+  color: #ffffff;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  line-height: 1.6;
+  font-size: 2rem;
 }
 
-.main__title{
-    font-style: italic;
-    font-size: 4rem;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    background-color: yellow;
-    color: #2B2E4D;
+.mapa__principal {
+  background-color: darkred;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  border: #2b2e4d;
 }
 
-.main__principal{
-    background-color: #2B2E4D;
-    text-align: center;
-    background-size: 800px 600px ;
+.mapa__principal img {
+  width: 100%;
+  height: auto;
 }
 
-.footer__principal{
-    background-color: #2B2E4D;
-    text-align: center;
-    color: #ffffff; 
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    line-height: 1.6;
-    font-size: 2rem;
+.main__header__nav-buttom_Inicio {
+  border: 2px solid white;
+  border-radius: 41px;
+  width: 80%;
+  padding: 5px 10px;
+  margin-left: 20px;
 }
 
-.mapa__principal{
-    background-color: darkred;
-    text-align: center;
-    padding: 20px;
-    margin: 10px;
-    border: #2B2E4D;
+.main__header__nav-buttom_Historia {
+  border: 2px solid white;
+  border-radius: 41px;
+  width: 80%;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+.main__header__nav-buttom_HazteSocio {
+  border: 2px solid white;
+  border-radius: 41px;
+  width: 80%;
+  padding: 5px 10px;
+  margin-left: 20px;
+}
+.main__header__nav-buttom_Plantilla {
+  border: 2px solid white;
+  border-radius: 41px;
+  width: 80%;
+  padding: 5px 10px;
+  margin-left: 20px;
 }
 
-.mapa__principal img{
-    width: 100%;
-    height: auto
+.main__header__nav-buttom_Multimedia {
+  border: 2px solid white;
+  border-radius: 41px;
+  width: 80%;
+  padding: 5px 10px;
+  margin-left: 20px;
 }
 
-.main__header__nav-buttom_Inicio{
-    border: 2px solid white;
-    border-radius: 41px;
-    width: 80%;
-    padding: 5px 10px;
-    margin-left: 20px;
-}
-
-.main__header__nav-buttom_Historia{
-    border: 2px solid white;
-    border-radius: 41px;
-    width: 80%;
-    padding: 5px 10px;
-    margin-left: 20px;
-}
-.main__header__nav-buttom_HazteSocio{
-    border: 2px solid white;
-    border-radius: 41px;
-    width: 80%;
-    padding: 5px 10px;
-    margin-left: 20px;
-}
-.main__header__nav-buttom_Plantilla{
-    border: 2px solid white;
-    border-radius: 41px;
-    width: 80%;
-    padding: 5px 10px;
-    margin-left: 20px;
-}
-
-.main__header__nav-buttom_Multimedia{
-    border: 2px solid white;
-    border-radius: 41px;
-    width: 80%;
-    padding: 5px 10px;
-    margin-left: 20px;
-}
-
-.imagenes__cuerpo img{
-    width: 100%;
-    height: auto;
+.imagenes__cuerpo img {
+  width: 100%;
+  height: auto;
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("Imagenprincipal.jpg");
-  
-    /* Set a specific height */
-    min-height: 500px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* The image used */
+  background-image: url("Imagenprincipal.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

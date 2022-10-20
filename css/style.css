@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 .remove-bg {
   filter: brightness(1, 1);
   mix-blend-mode: multiply; }
@@ -7,9 +11,9 @@ a {
   color: #000000; }
 
 header {
-  background-color: #2B2E4D;
+  background-color: #2b2e4d;
   color: yellow;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   line-height: 1.6; }
 
 .main__header {
@@ -33,25 +37,21 @@ a {
   display: inline-block;
   width: 80%;
   padding-left: 40px; }
-
-.main__header ul {
-  font-size: 0; }
-
-.main__header ul li {
-  display: inline-block;
-  width: 20%;
-  position: relative; }
-
-.main__header ul ul {
-  display: none;
-  position: absolute;
-  background-color: #2B2E4D;
-  width: 70px;
-  padding-left: 15px;
-  padding-bottom: 15px; }
-
-.main__header ul ul li {
-  display: block; }
+  .main__header logo__header ul {
+    font-size: 0; }
+    .main__header logo__header ul li {
+      display: inline-block;
+      width: 20%;
+      position: relative; }
+    .main__header logo__header ul ul {
+      display: none;
+      position: absolute;
+      background-color: #2b2e4d;
+      width: 70px;
+      padding-left: 15px;
+      padding-bottom: 15px; }
+      .main__header logo__header ul ul li {
+        display: block; }
 
 .main__header ul li:hover ul {
   display: block; }
@@ -64,21 +64,21 @@ nav {
 .main__title {
   font-style: italic;
   font-size: 4rem;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
   background-color: yellow;
-  color: #2B2E4D; }
+  color: #2b2e4d; }
 
 .main__principal {
-  background-color: #2B2E4D;
+  background-color: #2b2e4d;
   text-align: center;
   background-size: 800px 600px; }
 
 .footer__principal {
-  background-color: #2B2E4D;
+  background-color: #2b2e4d;
   text-align: center;
   color: #ffffff;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   line-height: 1.6;
   font-size: 2rem; }
 
@@ -87,7 +87,7 @@ nav {
   text-align: center;
   padding: 20px;
   margin: 10px;
-  border: #2B2E4D; }
+  border: #2b2e4d; }
 
 .mapa__principal img {
   width: 100%;
