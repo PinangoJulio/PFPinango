@@ -84,43 +84,44 @@
         height="80"
       />
     </div>
-    <form action="">
-      <label for="name">Nombre y Apellido</label>
-      <input type="text" name="name" placeholder="Colocar nombre completo" />
-      <p></p>
-      <label for="email">Email</label>
-      <input type="email" name="email" placeholder="Colocar email" />
-      <p></p>
-      <label for="Password">Contraseña</label>
-      <input type="Password" name="Password" placeholder="Ingrese contraseña" />
-      <p></p>
-      <label for="message">Consulta</label>
-      <textarea
-        name="message"
-        cols="30"
-        rows="30"
-        placeholder="Deje su Consulta"
-      ></textarea>
-      <p></p>
-      <label for="Bussines">Pyme</label>
-      <input type="radio" name="Bussines" value="Pyme" />
-      <p></p>
-      <label for="Bussines">Gran Empresa</label>
-      <input type="radio" name="Bussines" value="Empresa Grande" />
-      <p></p>
-      <label for="accept">Acepta Terminos y condiciones</label>
-      <input type="checkbox" name="accept" value="Si" checked />
-      <p></p>
-      <label for="services">Servicios</label>
-      <select name="services" id="">
-        <option value="Web">Web</option>
-        <option value="Apps">Apps</option>
-      </select>
-      <p></p>
+    <h1 class="main__title">FORMULARIO</h1>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Nombre Y Apellido</span>
+      <input type="text" class="form-control" placeholder="Nombre Y Apellido" aria-label="Nombre Y Apellido">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Correo Electronico</span>
+      <input type="text" class="form-control" placeholder="@example.com" aria-label="Correo Electronico" aria-describedby="basic-addon1">
+    </div>
+    <div class="input-group mb-3">
+      <span class="input-group-text" id="basic-addon1">Pais De Residencia</span>
+      <input type="text" class="form-control" placeholder="Pais De Residencia" aria-label="Pais De Residencia">
+      <span class="input-group-text">Provincia</span>
+      <input type="text" class="form-control" placeholder="Provincia" aria-label="Provincia">
+      <span class="input-group-text">Localidad</span>
+      <input type="text" class="form-control" placeholder="Localidad" aria-label="Localidad">
+      <span class="input-group-text">Codigo Postal</span>
+      <input type="text" class="form-control" placeholder="Codigo Postal" aria-label="Codigo Postal">
+    </div>
+    
+    <div class="mb-3 row">
+      <label for="inputPassword" class="col-sm-2 col-form-label">Clave de Socio</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword">
+      </div>
+      <label for="inputPassword" class="col-sm-2 col-form-label"> Confirme la Clave de Socio</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword">
+      </div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Breve explicación de intenciones de formar parte del Club</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    
       <input type="submit" value="enviar formulario" />
       <input type="reset" value="limpiar formulario" />
-      <input type="button" value="no hace nada" />
-    </form>
+
     <footer class="footer__principal">
       <img
         src="https://assets.stickpng.com/images/584a9b3bb080d7616d298777.png"
